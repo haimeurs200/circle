@@ -12,7 +12,7 @@ jobs:
                 docker_layer_caching: true
 
             - run: # Étapes 2 & 3
-                name: "Build and pute Docker image"
+                name: "Build and pue Docker image"
                 command: |
                     IMAGE_TAG="1.${CIRCLE_BUILD_NUM}"
                     APP_VERSION="${IMAGE_TAG}"
